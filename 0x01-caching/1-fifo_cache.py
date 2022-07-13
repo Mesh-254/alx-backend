@@ -17,20 +17,21 @@ class FIFOCache(BaseCaching):
         Initialize
         """
         super().__init__()
-        self.cache_data_queue = []
+        self.cache_data_list = []
 
     def put(self, key, item):
         """
         Add an item in the cache
         """
+        if key is None and item is None:
+            return None
         if len(self.cache_data) >= BaseCaching.MAX_ITEMS:
-            key = self.cache_data_queue.pop(0)
-            self.cache_data.pop(key)
-            print(f'DISCARD: {key}')
+            value = self.cache_data_list.pop(0)
+            self.cache_data.pop(value)
+            print(f'DISCARD: {value}')
 
-        if key is not None and item is not None:
-            self.cache_data_queue.append(key)
-            self.cache_data[key] = item
+        self.cache_data_list.append(key)
+        self.cache_data[key] = item
 
     def get(self, key):
         """
