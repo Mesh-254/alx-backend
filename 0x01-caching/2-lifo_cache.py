@@ -19,7 +19,7 @@ class LIFOCache(BaseCaching):
             value = self.cache_data_list.pop()
             del self.cache_data[value]
             print(f'DISCARD: {value}')
-        
+
         if key is not None and item is not None:
             self.cache_data_list.append(key)
             self.cache_data[key] = item
