@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ fifo caching module"""
-from more_itertools import last
+
 from base_caching import BaseCaching
 
 
