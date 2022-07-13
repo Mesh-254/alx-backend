@@ -16,7 +16,7 @@ class FIFOCache(BaseCaching):
         """Add an item in the cache"""
 
         if key is None and item is None:
-            return None
+            return 
         if len(self.cache_data) >= self.MAX_ITEMS:
             first_item = self.cache_data_list.pop(0)
             del self.cache_data[first_item]
