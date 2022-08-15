@@ -16,6 +16,6 @@
 - Your code should use the js extension
 
 ### links
-<a href https://alx-intranet.hbtn.io/rltoken/8xeApIhnxgFZkgn54BiIeA>Redis quick start</a>
-<a href https://alx-intranet.hbtn.io/rltoken/1rq3ral-3C5O1t67dbGcWg>Redis client interface</a>
-<a href https://alx-intranet.hbtn.io/rltoken/mRftfl67BrNvl-RM5JQfUA>Redis client for Node JS</a>
+- https://alx-intranet.hbtn.io/rltoken/8xeApIhnxgFZkgn54BiIeA>Redis quick start
+- https://alx-intranet.hbtn.io/rltoken/1rq3ral-3C5O1t67dbGcWg>Redis client interface
+- https://alx-intranet.hbtn.io/rltoken/mRftfl67BrNvl-RM5JQfUA>Redis client for Node JS
