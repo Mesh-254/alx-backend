@@ -16,6 +16,6 @@
 - Your code should use the js extension
 
 ### links
-- https://alx-intranet.hbtn.io/rltoken/8xeApIhnxgFZkgn54BiIeA>Redis quick start
+- https://redis.io/docs/getting-started/installation/install-redis-on-linux/
 - https://alx-intranet.hbtn.io/rltoken/1rq3ral-3C5O1t67dbGcWg>Redis client interface
 - https://alx-intranet.hbtn.io/rltoken/mRftfl67BrNvl-RM5JQfUA>Redis client for Node JS
