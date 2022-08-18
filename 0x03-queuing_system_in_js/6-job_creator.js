@@ -2,13 +2,13 @@
 import { createQueue } from 'kue';
 
 const queue = createQueue({name: 'push_notification_code'});
-
-const job = queue.create('push_notification_code', {
+const job =  {
   phoneNumber: '07045679939',
   message: 'Account registered',
-});
+}
+const jobCreator = queue.create('push_notification_code', job);
 
-job
+jobCreator
   .on('enqueue', () => {
     console.log('Notification job created:', job.id);
   })
