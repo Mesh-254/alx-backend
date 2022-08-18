@@ -18,4 +18,4 @@ jobCreator
   .on('failed attempt', () => {
     console.log('Notification job failed');
   });
-job.save();
+jobCreator.save();
